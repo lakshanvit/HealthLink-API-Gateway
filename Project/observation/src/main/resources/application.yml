@@ -1,0 +1,50 @@
+server:
+  port: 8083
+spring:
+  application:
+    name: "observation"
+  profiles:
+    active: "prod"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/observationdb
+    username: admin
+    password: admin
+    driverClassName: org.postgresql.Driver
+  jpa:
+    properties:
+      hibernate:
+        ddl-auto: update
+        show_sql: false
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      access: unrestricted
+  info:
+    env:
+      enabled: true
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
+info:
+  app:
+    name: "observation"
+    description: "Health Link Lab Result manage Application"
+    version: "1.0.0"
+
+
+

@@ -1,0 +1,56 @@
+server:
+  port: 8081
+spring:
+  application:
+    name: "patients"
+  profiles:
+    active: "prod"
+  datasource:
+    url: jdbc:postgresql://localhost:5432/patientdb
+    username: admin
+    password: admin
+    driverClassName: org.postgresql.Driver
+  jpa:
+    show_sql: true
+    hibernate:
+      ddl-auto: none  # Disable Hibernate's automatic schema generation
+    properties:
+      hibernate:
+        format_sql: true  # Pretty-print SQL in logs
+        dialect: org.hibernate.dialect.PostgreSQLDialect
+  sql:
+    init:
+      mode: always
+      platform: postgresql
+      encoding: UTF-8
+  config:
+    import: "optional:configserver:http://localhost:8071/"
+
+
+management:
+  endpoints:
+    web:
+      exposure:
+        include: "*"
+  endpoint:
+    shutdown:
+      access: unrestricted
+  info:
+    env:
+      enabled: true
+
+eureka:
+  instance:
+    preferIpAddress: true
+  client:
+    fetchRegistry: true
+    registerWithEureka: true
+    serviceUrl:
+      defaultZone: http://localhost:8070/eureka/
+
+info:
+  app:
+    name: "patients"
+    description: "Health Link Patients Application"
+    version: "1.0.0"
+
