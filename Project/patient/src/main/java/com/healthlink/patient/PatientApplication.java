@@ -6,6 +6,8 @@ import org.springframework.boot.autoconfigure.SpringBootApplication;
 import org.springframework.boot.context.properties.EnableConfigurationProperties;
 import org.springframework.cloud.openfeign.EnableFeignClients;
 
+import java.util.HashMap;
+
 @SpringBootApplication
 @EnableFeignClients
 @EnableConfigurationProperties(value = {PatientsContactInfoDto.class})

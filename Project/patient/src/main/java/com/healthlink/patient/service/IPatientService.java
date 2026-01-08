@@ -4,9 +4,11 @@ import com.healthlink.patient.dto.PatientDashBoardDto;
 import com.healthlink.patient.entity.Patient;
 
 public interface IPatientService {
-    PatientDashBoardDto fetchDashBoardDetails(String patientNo);
+    PatientDashBoardDto fetchDashBoardDetails(String patientNo, String correlationId);
 
     Patient createPatient(org.hl7.fhir.r4.model.Patient fhirPatient);
 
     org.hl7.fhir.r4.model.Patient getFhirPatient(String publicId);
+
+    boolean updateCommunicationStatus(Long patientNo);
 }

@@ -22,4 +22,10 @@ public class PatientDto {
 
     @NotEmpty(message = "patientNo can not be a null or empty")
     private String patientNo;
+
+    @NotEmpty(message = "email can not be a null or empty")
+    private String email;
+
+    @NotEmpty(message = "mobileNo can not be a null or empty")
+    private String mobileNo;
 }

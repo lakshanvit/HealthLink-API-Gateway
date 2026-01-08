@@ -11,6 +11,8 @@ public class PatientMapper {
         patientDto.setLastName(patient.getLastName());
         patientDto.setBirthDate(patient.getBirthDate());
         patientDto.setGender(patient.getGender());
+        patientDto.setEmail(patient.getEmail());
+        patientDto.setMobileNo(patient.getMobileNo());
 
         return patientDto;
     }
@@ -28,7 +30,9 @@ public class PatientMapper {
         patient.setFirstName(patientDto.getFirstName());
         patient.setLastName(patientDto.getLastName());
         patient.setBirthDate(patientDto.getBirthDate());
-        patient.setGender(patient.getGender());
+        patient.setGender(patientDto.getGender());
+        patient.setEmail(patientDto.getEmail());
+        patient.setMobileNo(patientDto.getMobileNo());
 
         return patient;
     }

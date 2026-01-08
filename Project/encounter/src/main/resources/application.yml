@@ -5,16 +5,29 @@ spring:
     name: "encounter"
   profiles:
     active: "prod"
+#  datasource:
+#    url: jdbc:postgresql://localhost:5432/encounterdb
+#    username: admin
+#    password: admin
+#    driverClassName: org.postgresql.Driver
+#  jpa:
+#    properties:
+#      hibernate:
+#        ddl-auto: update
+#        show_sql: false
   datasource:
-    url: jdbc:postgresql://localhost:5432/encounterdb
-    username: admin
-    password: admin
-    driverClassName: org.postgresql.Driver
+    url: jdbc:h2:mem:testdb
+    driverClassName: org.h2.Driver
+    username: sa
+    password: ''
+  h2:
+    console:
+      enabled: true
   jpa:
-    properties:
-      hibernate:
-        ddl-auto: update
-        show_sql: false
+    database-platform: org.hibernate.dialect.H2Dialect
+    hibernate:
+      ddl-auto: update
+    show-sql: true
   config:
     import: "optional:configserver:http://localhost:8071/"
 
@@ -45,5 +58,11 @@ info:
     name: "encounter"
     description: "Health Link Active Patients Tracking Application"
     version: "1.0.0"
+
+logging:
+  level:
+    com:
+      healthlink:
+        encounter: DEBUG
 
 

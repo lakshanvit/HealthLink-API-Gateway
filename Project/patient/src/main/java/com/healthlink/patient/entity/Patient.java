@@ -27,5 +27,12 @@ public class Patient {
 
     private String gender;
 
+    private String email;
+
+    private String mobileNo;
+
+    @Column(name = "communication_sw")
+    private Boolean communicationSw;
+
 
 }

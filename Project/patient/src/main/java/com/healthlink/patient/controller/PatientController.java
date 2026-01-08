@@ -5,6 +5,8 @@ import ca.uhn.fhir.rest.api.Constants;
 import com.healthlink.patient.dto.PatientDashBoardDto;
 import com.healthlink.patient.service.IPatientService;
 import org.hl7.fhir.r4.model.Patient;
+import org.slf4j.Logger;
+import org.slf4j.LoggerFactory;
 import org.springframework.http.HttpStatus;
 import org.springframework.http.MediaType;
 import org.springframework.http.ResponseEntity;
@@ -12,9 +14,11 @@ import org.springframework.validation.annotation.Validated;
 import org.springframework.web.bind.annotation.*;
 
 @RestController
-@RequestMapping(path = "/fhir/Patient", produces = {MediaType.APPLICATION_JSON_VALUE})
+@RequestMapping(path = "/fhir", produces = {MediaType.APPLICATION_JSON_VALUE})
 @Validated
 public class PatientController {
+
+    private static final Logger logger = LoggerFactory.getLogger(PatientController.class);
 
     private final IPatientService iPatientService;
 
@@ -46,8 +50,10 @@ public class PatientController {
     }
 
     @GetMapping("/fetchPatientDashBoard")
-    public ResponseEntity<PatientDashBoardDto> fetchPatientDashBoard(@RequestParam String patientNo){
-        PatientDashBoardDto patientDashBoardDto = iPatientService.fetchDashBoardDetails(patientNo);
+    public ResponseEntity<PatientDashBoardDto> fetchPatientDashBoard(@RequestHeader("healthlink-correlation-id") String correlationId,
+                                                                     @RequestParam String patientNo){
+        logger.debug("healthLink-correlation-id found: {}", correlationId);
+        PatientDashBoardDto patientDashBoardDto = iPatientService.fetchDashBoardDetails(patientNo, correlationId);
         return ResponseEntity.status(HttpStatus.OK).body(patientDashBoardDto);
     }
 

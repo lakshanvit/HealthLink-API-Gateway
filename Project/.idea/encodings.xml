@@ -7,6 +7,8 @@
     <file url="file://$PROJECT_DIR$/eurekaserver/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/eurekaserver/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/gateway/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/message/src/main/java" charset="UTF-8" />
+    <file url="file://$PROJECT_DIR$/message/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observation/src/main/java" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/observation/src/main/resources" charset="UTF-8" />
     <file url="file://$PROJECT_DIR$/patient/src/main/java" charset="UTF-8" />

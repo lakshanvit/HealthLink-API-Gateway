@@ -2,8 +2,67 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3d7e2a34-e17d-497d-b99a-0988f444fa72" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/Project/hapi-fhir-jpaserver-starter/docker-compose.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/hapi-fhir-jpaserver-starter/docker-compose.yml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/Project/hapi-fhir-jpaserver-starter/src/main/resources/application.yaml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/hapi-fhir-jpaserver-starter/src/main/resources/application.yaml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__com_fasterxml_jackson_core_jackson_databind_2_19_1.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__com_netflix_eureka_eureka_client_2_0_42.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__commons_logging_commons_logging_1_22.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_codec_4_1_122_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_codec_http2_4_1_122_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_resolver_dns_4_1_122_Final3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_122_Final2.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_resolver_dns_native_macos_osx_x86_64_4_1_122_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_transport_native_epoll_linux_x86_64_4_1_122_Final.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_projectreactor_netty_reactor_netty_core_1_2_7.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_reactor_netty_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_boot_spring_boot_starter_webflux_3_5_3.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_gateway_server_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_gateway_4_3_0.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_beans_6_2_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_context_6_2_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_expression_6_2_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_web_6_2_82.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_webflux_6_2_8.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/.idea/vcs.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/gateway/src/main/java/com/healthlink/gateway/controller/FallbackController.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/run_first_database_setup.sql" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/start_healthlink.sh" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Project/stop_healthlink.sh" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/vcs.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Customer Requirements for HealthLink API Gateway.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/HealthLink API Gateway.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__com_fasterxml_jackson_dataformat_jackson_dataformat_xml_2_19_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__com_google_errorprone_error_prone_annotations_2_23_0.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__com_google_guava_guava_33_0_0_jre.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_github_openfeign_feign_core_13_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_github_openfeign_feign_form_spring_13_6.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_github_x_stream_mxparser_1_2_2.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_projectreactor_reactor_core_3_7_7.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_micrometer_micrometer_core_1_15_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_resolver_4_1_122_Final.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_micrometer_micrometer_jakarta9_1_15_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_codec_dns_4_1_122_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_boot_spring_boot_properties_migrator_3_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_codec_http_4_1_122_Final.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_boot_spring_boot_configuration_metadata_3_5_3.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__io_netty_netty_resolver_dns_classes_macos_4_1_122_Final.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_jboss_logging_jboss_logging_3_6_1_Final2.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_boot_spring_boot_devtools_3_5_3.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_4_3_02.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_cloud_spring_cloud_starter_loadbalancer_4_3_0.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_5_1.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_core_6_5_1.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_security_spring_security_crypto_6_5_12.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_security_spring_security_oauth2_jose_6_5_1.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_beans_6_2_8.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_context_6_2_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_context_6_2_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_expression_6_2_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_expression_6_2_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_web_6_2_8.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_springframework_spring_web_6_2_8.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/.idea/libraries/Maven__org_yaml_snakeyaml_2_4.xml" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/encounter/src/main/java/com/healthlink/encounter/controller/EncounterController.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/encounter/src/main/java/com/healthlink/encounter/controller/EncounterController.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/eurekaserver/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/eurekaserver/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/gateway/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/gateway/pom.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/gateway/src/main/java/com/healthlink/gateway/GatewayApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/gateway/src/main/java/com/healthlink/gateway/GatewayApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/gateway/src/main/java/com/healthlink/gateway/config/KeycloakRoleConverter.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/gateway/src/main/java/com/healthlink/gateway/config/SecurityConfig.java" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/gateway/src/main/resources/application.yml" beforeDir="false" afterPath="$PROJECT_DIR$/Project/gateway/src/main/resources/application.yml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/Project/patient/src/main/java/com/healthlink/patient/PatientApplication.java" beforeDir="false" afterPath="$PROJECT_DIR$/Project/patient/src/main/java/com/healthlink/patient/PatientApplication.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/System Design.docx" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/important java.docx" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -11,7 +70,7 @@
     <option name="LAST_RESOLUTION" value="IGNORE" />
   </component>
   <component name="Git.Settings">
-    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$/Project/hapi-fhir-jpaserver-starter" />
+    <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
   </component>
   <component name="ProjectId" id="302kZa5ZstChCwyZbr0Z8xkgzw6" />
   <component name="ProjectLevelVcsManager" settingsEditedManually="true" />
@@ -22,6 +81,8 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="settings.editor.selected.configurable" value="project.propVCSSupport.Mappings" />
   </component>
   <component name="SpellCheckerSettings" RuntimeDictionaries="0" Folders="0" CustomDictionaries="0" DefaultDictionary="application-level" UseSingleDictionary="true" transferred="true" />
   <component name="TaskManager">
@@ -33,5 +94,10 @@
       <updated>1752833116902</updated>
     </task>
     <servers />
+  </component>
+  <component name="VcsManagerConfiguration">
+    <ignored-roots>
+      <path value="$PROJECT_DIR$/Project/hapi-fhir-jpaserver-starter" />
+    </ignored-roots>
   </component>
 </project>
